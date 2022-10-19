@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESSON 10: HTML GEOLOCATION API</title>
+    <link rel="stylesheet" href="lesson10.css">
+</head>
+<body>
+    <nav class="navbar"> 
+        <ul>
+            <li><a href="educ.html">Home</a></li>
+            <li><a href="lesson.html">LESSON 1</a></li>
+            <li><a href="lesson2.html">LESSON 2</a></li>
+            <li><a href="lesson3.html">LESSON 3</a></li>
+            <li><a href="lesson4.html">LESSON 4</a></li>
+            <li><a href="lesson5.html">LESSON 5</a></li>
+            <li><a href="lesson6.html">LESSON 6</a></li>
+            <li><a href="lesson7.html">LESSON 7</a></li>
+            <li><a href="lesson8.html">LESSON 8</a></li>
+            <li><a href="lesson9.html">LESSON 9</a></li>
+            <li><a href="lesson10.html">LESSON 10</a></li>
+        </ul>
+    </nav>
+
+    <section id="lesson10">
+        <div class="main">
+            <h1 class="headings">HTML GEOLOCATION API<br></h1>
+            <p class="lesson10">The HTML Geolocation API is used to locate a user's position.
+
+                <br> 
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">Locate the User's Position</h1>
+        <p class="lesson10">The HTML Geolocation API is used to get the geographical position of a user. <br> <br>
+
+            Since this can compromise privacy, the position is not available unless the user approves it.
+            <br> <br>
+
+        </p> <hr>
+            <h1 class="headings">Browser Support</h1>
+           <div id="pic">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/308019050_645994023750454_8458672523270647900_n.png?_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGwLfKpj4izAKNp1UoJB9hV4dVQURqhYIvh1VBRGqFgi8UjrXcJ2pDsOJNAa4kg4YtXIhzeV_e3iVuFwXJnzwa_&_nc_ohc=l5dhag6xuVsAX9udSgE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRm5J2glWMD41SOOtcJnH9oyIxFtSiZxfVgvdb7MwVx6w&oe=6373FCE7" alt="">
+           </div>
+
+           <h1 class="headings">Using HTML Geolocation</h1>
+           <p class="lesson10">The example below returns the latitude and longitude of the user's position:</p> <br> <br>
+           <div id="pic">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/290414598_1065217450833406_6780460060089588118_n.png?stp=dst-png_p403x403&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGQI-bkVGmDFxXfOkOzVZ13B8y0yEJC9ugHzLTIQkL26BegxSYY9McDOw1ejxR57gUvm0qJ1teIx0fAU_7w2Vqk&_nc_ohc=hoM2IAA9u5wAX_axi3E&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSseT7JJbSFA0466mzy8xgKFF_uEqmt7DhGcxaZbtGRyA&oe=6374076D" alt="">
+           <hr>
+        </div>
+           <p class="lesson10"><h1 class="headings">Example explained:</h1><br>
+
+            Check if Geolocation is supported <br> <br>
+            If supported, run the getCurrentPosition() method. If not, display a message to the user <br> <br>
+            If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition) <br> <br>
+            The showPosition() function outputs the Latitude and Longitude <br> <br> <hr>
+            The example above is a very basic Geolocation script, with no error handling.</p> <br> <br>
+
+        </div>
+    </section>
+       
+    
+</body>
+</html>
